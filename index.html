@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="author" content="Nancle from CAU CS101" />
+<title>jquery-slide</title>
+</head>
+<script type="text/javascript" src="lib/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="jquery.modal.js"></script>
+<script type="text/javascript">
+$(function(){
+	$.modal({
+				dialogContent:'登陆我们的网站,您可以使用qq登陆哦~<a class="qqlogin_btn" href="javascript:;"></a>'
+			});
+})
+</script>
+
+<style type="text/css">
+	/*site css start*/
+	body{background:#89b543; font-family:Verdana, Geneva, sans-serif; font-size:14px; line-height:29px}
+	.wrapper{ width:800px; margin:0 auto;  margin-bottom:10px;  }
+	.wrapper h1{ text-align:center; width:800px; font-size:30px }
+	.tip{ width:740px; margin:0 auto; background:#fff; padding:6px 30px}
+	.tip h1{ font-size:14px; line-height:30px}
+	.tip h1 span{font-size:13px; font-weight:normal; margin-left:10px}
+	.tip p{ margin:0 } .tip a{ color:#000; text-decoration:none }
+	.tip .codeWrapper{ background:#eaeaea }
+	.tip code{font-size:13px; font-family:Verdana, Geneva, sans-serif;}
+	.tip ol{ background:#eaeaea;}
+	.tip ol li{ list-style: decimal-leading-zero; border-left: 3px solid #999; padding: 0 5px;}
+	/*site css end*/
+	.qqlogin_btn{width:230px;height:48px;display:block;background:url(images/Connect_logo_5.png);padding:0;margin:0 0 0 7px;
+}
+</style>
+<body>
+	<div class="wrapper">
+    	<h1>jQuery-modal</h1>
+    </div>
+	<div class="wrapper">
+    <div class="tip">	
+    	<h1>经过IE7&IE6+，chrome，firefox测试兼容(不兼容ie6)<span></h1>
+      
+        <h1>HTML</h1>
+        <div class="codeWrapper">
+        	<ol>
+            	<li><code>无需更改</code></li>
+            </ol>
+        </div>
+        
+        <h1>CSS</h1>
+        <div class="codeWrapper">
+            <ol>
+                <li><code>无需更改</code></li>
+            </ol>
+        </div>
+       
+        <h1>JS</h1>
+        <div class="codeWrapper">
+        	<ol>
+            	<li><code>&lt;script type="text/javascript" src="lib/jquery-1.9.1.js"&gt;&lt;/script&gt;</code></li>
+                <li><code>&lt;script type="text/javascript" src="jquery.slider.js"&gt;&lt;/script&gt;</code></li>
+            </ol>
+        </div>
+        
+        <h1>调用</h1>
+        <div class="codeWrapper">
+        	<ol>
+            	<li><code>$.modal();</code></li>
+            </ol>
+        </div
+		
+        <h1>选项</h1>
+        <div class="codeWrapper">
+            <ol>
+                <li><code>$.modal({</code></li>
+                <li><code>&nbsp;&nbsp;&nbsp;&nbsp;'dialogWidth' : 500,   //弹出对话框的宽度，默认为300</code></li>
+                <li><code>&nbsp;&nbsp;&nbsp;&nbsp;'dialogContent' : @html,      //对话框的内容：传入你要放在对话框中的html</code></li>
+                <li><code>&nbsp;&nbsp;&nbsp;&nbsp;'hideDelay' : 2000,//对话框自动隐匿时间。默认值是'none'，即不会自动隐匿。你可以填入数值（ms单位）</code></li>
+                <li><code>&nbsp;&nbsp;&nbsp;&nbsp;'showCloseButton' : 0   //对话框是否带“关闭”按钮:1为带有，0为没有。默认带有。</code></li>
+                <li><code>});</code></li>
+            </ol>
+        </div>
+        
+        <h1><strong>下载地址</strong>：<a href="https://github.com/7LI/jQuery-modal" target="_blank">https://github.com/7LI/jQuery-modal</a></h1>
+        <p>作者： <em>Nancle from CAU CS101</em></p>
+        <p><a href="http://blog.csdn.net/liuyanzhi08" target="_blank">博客：http://blog.csdn.net/liuyanzhi08	</a></p>
+    </div>
+	
+</body>
+</html>
