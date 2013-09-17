@@ -18,11 +18,12 @@
         <script type="text/javascript" src="jquery.modal.js"></script>
         
     4.调用
-       $("#{yourId}").jScroll({
-		'scroll_enable' : true,   //是否开启滚轮，默认开启
-		'scroll_pace' : 35,      //滚轮每单位滚动的距离， 默认值是35
-    	'scroll_id' : '{yourId}',//触发滚轮的id， 默认是主id，即上述html中第一个标签的id
-    	'layout' : 'vertical' 	//布局方式：vertical(垂直) , horizon（水平）默认为垂直
-        });		
+		$.modal({
+			'dialogWidth' : 500, //弹出对话框的宽度，默认为300
+			'dialogContent' : @html, //对话框的内容：传入你要放在对话框中的html
+			'hideDelay' : 2000,//对话框自动隐匿时间。默认值是'none'，即不会自动隐匿。你可以填入数值（ms单位）
+			'showCloseButton' : 0 //对话框是否带“关闭”按钮:1为带有，0为没有。默认带有。
+		});
 
-*演示地址： [http://quchen.cau.edu.cn/jsDev/jquery-slider/](http://quchen.cau.edu.cn/jsDev/jquery-slider/ "jQuery-slider") .
+
+*演示地址： [http://quchen.cau.edu.cn/jsDev/jquery-modal/](http://quchen.cau.edu.cn/jsDev/jquery-modal/ "jQuery-modal") .
