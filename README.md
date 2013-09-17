@@ -4,7 +4,7 @@
 >
 >version: 1.0
 >
->经过IE6&IE6+，chrome，firefox测试兼容
+>经过IE7&IE7，chrome，firefox测试兼容(不兼容ie6)
 
 
 	1. [ HTML ] 
